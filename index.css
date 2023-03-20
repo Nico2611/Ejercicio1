@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +10,29 @@ body{
     background: radial-gradient(circle, rgba(2,0,36,1) 60%, rgba(42,130,148,1) 100%);
 }
 .titulo{
-    background-color: aqua;
+    color: white;
+    background-color:rgba(2,0,36,1);
+    font-size: 14px;
 }
+
+.dflex{
+    display: flex;
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(2,0,36,1);
+    width: 100%;
+}
+
+
+/* ------------TIPOGRAFÍAS------------ */
+
+.merryw{
+    font-family: 'Merriweather', serif;
+}
+
+
+/* ------------ORDENAMIENTOS------------ */
