@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,14 +10,11 @@ body{
     background: radial-gradient(circle, rgba(2,0,36,1) 60%, rgba(42,130,148,1) 100%);
 }
 .titulo{
-    color: white;
-    background-color:rgba(2,0,36,1);
-    font-size: 14px;
+    /* background-color:rgba(2,0,36,1); */
+    font-size: 20px;
+    margin-bottom: 7vh;
 }
 
-.dflex{
-    display: flex;
-}
 
 footer{
     color: white;
@@ -28,11 +25,65 @@ footer{
 }
 
 
+
+
+
+/* ------------CARTAS------------ */
+
+.trabajos{
+    width: auto;
+    padding: 5vh;
+}
+
+.tps{
+    border: solid 5px rgb(22, 121, 141);
+    background-color: aliceblue;
+    height: 45vh;
+    width: 25vh;
+    margin: 5vh;
+
+}
+
+.img{
+    height: 17vh;
+    background-color: rgb(14, 72, 83);
+}
+
+.text{
+    font-size: 18px;
+}
+
 /* ------------TIPOGRAFÍAS------------ */
 
 .merryw{
     font-family: 'Merriweather', serif;
 }
 
+.f13{
+    font-size: 13px;
+}
+
+/* ------------COLORES------------ */
+
+.white{
+    color: white;
+}
 
 /* ------------ORDENAMIENTOS------------ */
+.dflex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.ider{
+    align-items: flex-end;
+}
+.column{
+    flex-direction: column;
+}
+.jcenter{
+    justify-content: center;
+}
