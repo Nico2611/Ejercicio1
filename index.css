@@ -33,12 +33,13 @@ footer{
 .trabajos{
     width: auto;
     padding: 5vh;
+    color: white;
 }
 
 .tps{
     border: solid 5px rgb(22, 121, 141);
-    background-color: aliceblue;
-    height: 50vh;
+    /* background-color: aliceblue; */
+    height: 55vh;
     width: 30vh;
     margin: 5vh;
 
@@ -70,7 +71,7 @@ footer{
     transition: all 0.5s;
     cursor: pointer;
     margin: 2px;
-
+    align-items: center;
   }
   
   .button span {
@@ -128,9 +129,16 @@ footer{
 .ider{
     align-items: flex-end;
 }
+.itm-ctr{
+    align-items: center;
+}
+
 .column{
     flex-direction: column;
 }
 .jcenter{
     justify-content: center;
+}
+.f-end{
+    justify-content: flex-end;
 }
