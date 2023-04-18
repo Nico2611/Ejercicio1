@@ -45,13 +45,13 @@
 
 .header{
     position: relative;
-    height: 500px;
+    height: 300px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaiyDK-iZfPXGdH8e7fO1Oxh_WIo9_WHgIEVHm-sTa9j4JKc-Yg332Pgn-nRgktdNGn_8&usqp=CAU);
     background-position: center;
     background-size: cover;
     padding: 10%;
     box-shadow: inset 0 0 150px 20px black;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -225,8 +225,7 @@ nav ul li{
 
 .rate{
     position: absolute;
-    top: -5px;
-    right: -5px;
+
     background-color: greenyellow;
     height: 50px;
     width: 50px;
@@ -236,7 +235,47 @@ nav ul li{
     color: white;
     font-size: 16pt;
 }
+.rate__card{
+    top: -5px;
+    right: -5px;
+}
+
+.rate__resto{
+    right: 5%;
+    bottom: -25px;
+}
+
 .resto .imagen{
     height: 100%;
     width: 40%;
 }
+.nav_mobile{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.nav_mobile a:active, .nav_mobile a:link, .nav_mobile a:visited{
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+    color: gray;
+}
+.nav_mobile a:hover{
+    border-top: solid 4px aquamarine;
+    color: black;
+    height: 56px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.tx10{
+    font-size: 10pt;
+}
+
