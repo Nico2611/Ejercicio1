@@ -299,6 +299,7 @@ nav ul li{
 }
 .cerrar_menu button{
     position: absolute;
+    cursor: pointer;
     left: 40px;
     border: 0;
     background-color: transparent;
@@ -308,4 +309,20 @@ nav ul li{
 .cerrar_menu h3{
     width: 100%;
     text-align: center;
+}
+.pas_top60{padding-top: 60px;}
+
+.lista_menu{
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lista_menu .item_menu{
+    
 }
