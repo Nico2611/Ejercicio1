@@ -6,6 +6,9 @@
 
 }
 
+.z10{z-index: 10;}
+.z0{z-index: 0;}
+
 
 /* -------------------colores----------------------- */
 .text2{
@@ -257,7 +260,7 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: aquamarine; */
+    background-color: white;
 }
 .nav_mobile a:active, .nav_mobile a:link, .nav_mobile a:visited{
     text-decoration: none;
@@ -310,19 +313,109 @@ nav ul li{
     width: 100%;
     text-align: center;
 }
-.pas_top60{padding-top: 60px;}
+.pad_top60{padding-top: 60px;}
+.pad_bot60{padding-bottom: 60px;}
 
 .lista_menu{
-    background-color: blanchedalmond;
     height: 300px;
     width: 100%;
     padding-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
+}
+
+.item_menu{
+    height: 120px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.item_imagen{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.item_imagen .rate{
+    font-size: 9pt;
+    height: 25px;
+    line-height: 35px;
+    border-radius: 10px 0 10px 0;
+    right: 0;
+    bottom: 20px;
+
+    
+}
+.item_imagen img{
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(0,0,0,0.46);
+}
+
+.item_detalle{
+    line-height: 30px;
+    width:  calc(100% - 100px);
+}
+
+
+
+/* ----------CONTADOR---------- */
+
+.addcart {
+
+    display: flex;
 
 }
 
-.lista_menu .item_menu{
+
+.menos,
+
+.mas {
+
+    padding: 10px;
+
+    height: 60px;
+
+    width: 60px;
+
     
+
+}
+
+
+input[type="number"], p {
+
+    border: 0;
+
+    padding: 10px;
+
+    width: 60px;
+
+    height: 60px;
+
+    line-height: 40px;
+
+    text-align: center;
+
+}
+
+/*SUBIR O BAJAR VALOR*/
+
+input[type="number"]::-webkit-inner-spin-button,
+
+
+input[type="number"]::-webkit-outer-spin-button {
+
+    -webkit-appearance: none;
+
+    -moz-appearance: textfield;
+
+    margin: 0;
+
 }
