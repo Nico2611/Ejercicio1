@@ -2,11 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color:antiquewhite;
-    width: 662px;
     /* padding: 5px; */
 }
 
@@ -134,12 +134,14 @@ footer{
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    left: 0px;
 }
 footer a:active, footer a:link, footer a:visited{
     text-decoration: none;
     height: 60px;
     line-height: 60px;
     color: rgb(3, 3, 3);
+
 }
 footer a:hover{
     border-top: solid 4px aquamarine;
