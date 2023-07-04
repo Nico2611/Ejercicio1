@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@500;700&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: rgb(2,0,36); */
+    background: radial-gradient(circle, rgba(2,0,36,1) 60%, rgba(42,130,148,1) 100%);
+}
+.titulo{
+    /* background-color:rgba(2,0,36,1); */
+    font-size: 20px;
+    margin-bottom: 7vh;
+}
+
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(2,0,36,1);
+    width: 100%;
+}
+
+
+
+
+
+/* ------------CARTAS------------ */
+
+.port{
+    height: 20vh;
+    width: auto;
+    background-color: red;
+    margin-bottom: 12px;
+    
+}
+
+.trabajos{
+    width: auto;
+    padding: 5vh;
+    color: white;
+}
+
+.tps{
+    border: solid 5px rgb(22, 121, 141);
+    /* background-color: aliceblue; */
+    height: 500px;
+    width: 30vw;
+    margin: 5vh;
+    z-index: 1;
+    padding: 12px;
+    position: relative;
+
+}
+
+.port .img{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.text{
+    font-size: 18px;
+    display: flex;
+}
+
+
+
+/* ------------HOVER------------ */
+
+.button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+    background-color: rgb(14, 72, 83);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+/* ------------TIPOGRAFÍAS------------ */
+
+.merryw{
+    font-family: 'Merriweather', serif;
+}
+
+.f13{
+    font-size: 13px;
+}
+.robotoSLB{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* ------------COLORES------------ */
+
+.white{
+    color: white;
+}
+
+/* ------------ORDENAMIENTOS------------ */
+.subnone{
+    text-decoration: none;
+}
+
+.rpadding5{
+    padding-right: 10%;
+}
+
+.dflex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.ider{
+    align-items: flex-end;
+}
+.itmctr{
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+.jcenter{
+    justify-content: center;
+}
+.fend{
+    justify-content: flex-end;
+}
+
+
+/* ------------CONDICIONES------------ */
+
+@media screen and (max-width:662px) {
+
+    .tps{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2em;
+    }
+
+}
